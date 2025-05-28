@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Star field */
+.stars,
+.stars::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  z-index: -10;
+  animation: twinkle 2s linear infinite;
+  pointer-events: none;
+}
+
+.stars {
+  box-shadow:
+    5vw 10vh white,
+    15vw 25vh white,
+    25vw 15vh white,
+    35vw 20vh white,
+    45vw 35vh white,
+    55vw 10vh white,
+    65vw 25vh white,
+    75vw 40vh white,
+    85vw 30vh white,
+    95vw 50vh white;
+}
+
+.stars::after {
+  box-shadow:
+    10vw 60vh white,
+    20vw 70vh white,
+    30vw 80vh white,
+    40vw 90vh white,
+    50vw 100vh white,
+    60vw 110vh white,
+    70vw 120vh white,
+    80vw 130vh white,
+    90vw 140vh white,
+    95vw 150vh white;
+  animation: twinkle 3s linear infinite reverse;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+
+/* Shooting stars */
+.shooting-star {
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, white, transparent);
+  animation: shoot 3s ease-in infinite;
+}
+
+.shooting-star:nth-child(2) {
+  top: 25%;
+  left: -100px;
+  animation-delay: 0s;
+}
+.shooting-star:nth-child(3) {
+  top: 45%;
+  left: -100px;
+  animation-delay: 1s;
+}
+.shooting-star:nth-child(4) {
+  top: 65%;
+  left: -100px;
+  animation-delay: 2s;
+}
+.shooting-star:nth-child(5) {
+  top: 85%;
+  left: -100px;
+  animation-delay: 3s;
+}
+.shooting-star:nth-child(6) {
+  top: 15%;
+  left: -100px;
+  animation-delay: 4s;
+}
+
+/* Keyframes */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 0.3; }
+}
+
+@keyframes shoot {
+  0% {
+    transform: translateX(0) translateY(0) rotate(25deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(120vw) translateY(50vh) rotate(25deg);
+    opacity: 0;
+  }
+}

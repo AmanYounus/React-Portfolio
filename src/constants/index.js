@@ -3,74 +3,45 @@ import project2 from "../assets/project-2.jpg";
 import project3 from "../assets/project-3.jpg";
 import project4 from "../assets/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm an AI Engineer with a strong passion for developing intelligent systems and creating seamless web experiences. Recently graduated with a focus on machine learning, deep learning, and full-stack development. I enjoy building AI-powered applications and leveraging technologies like React to bring innovative ideas to life. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated AI engineer and full-stack developer with a strong interest in building intelligent, user-focused applications. As a recent graduate, I’ve gained hands-on experience working with technologies such as React, Node.js, Python, and various machine learning frameworks like TensorFlow and scikit-learn. I also have a solid understanding of relational databases and have worked with SQL for data querying and management.`;
 
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Sign language Animation Generating System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "An innovative initiative that transforms text inputs into animated representations of Indian Sign Language(ISL).",
+    technologies: ["Flask", "Python", "NLTK", "SIGML", "Stanford Parser"],
   },
   {
-    title: "Task Management App",
+    title: "AI Web Scraper",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A simple web scraping tool which allows users to input any website URL and scrape the page content in real-time through a user-friendly web interface.",
+    technologies: ["Streamlit", "Python", "Selenium", "Bright Data"],
   },
   {
-    title: "Portfolio Website",
+    title: "AI Agent",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This project is an intelligent document parsing agent that uses natural language processing to extract and embed structured information from unstructured files. Ideal for building semantic search, Q&A, or knowledge base systems.",
+    technologies: ["Ollama", "Python", "LlamaParse", "Pydantic"],
   },
   {
-    title: "Blogging Platform",
+    title: "React portfolio",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "Tailwind CSS", "React", "Framer motion", "Vercel"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "601 ,Al Sayegh Center ,3 - Kan'ad St - Zone 1 - Al Danah - Abu Dhabi",
+  phoneNo: "+971 56 5497144 ",
+  email: "Amanyounusofficial2002@gmail.com",
 };

@@ -1,5 +1,6 @@
 import logo from "../assets/logo-new-new.png";
-import { FaLinkedin, FaGithub, FaInstagram, FaXTwitter } from 'react-icons/fa6';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 
 

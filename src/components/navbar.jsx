@@ -1,7 +1,8 @@
 import logo from "../assets/logo-new-new.png";
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
-
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 
 
@@ -14,7 +15,7 @@ const Navbar = () => {
       <a href="https://www.linkedin.com/in/aman-younus/" target="_blank"><FaLinkedin /></a>
       <a href="https://www.instagram.com/aman_younus2k69/" target="_blank"><FaInstagram /></a>
       <a href="https://github.com/AmanYounus"target="_blank"><FaGithub /></a>
-      <a href="https://x.com/AmanYounus_" target="_blank"><FaSquareXTwitter /></a>
+      <a href="https://x.com/AmanYounus_"><FaSquareXTwitter /></a>
       
       </div>
       </nav>
